@@ -23,7 +23,7 @@ if everything works you should see this in the Subscriber:
 
 and something like this in Redis:
 
-`127.0.0.1:6379> SYNC
+127.0.0.1:6379> SYNC
 Entering replica output mode...  (press Ctrl-C to quit)
 SYNC with master, discarding 178 bytes of bulk transfer...
 SYNC done. Logging commands from master.
@@ -41,6 +41,6 @@ SYNC done. Logging commands from master.
 "PING"
 "PING"
 "SELECT","0"
-"PUBLISH","testtopic","SomeMessageClass(id=33f82f42-5d94-4a35-afcf-be2d2bd507ec, sender=test, message=test, timestamp=1607357572787)"`
+"PUBLISH","testtopic","SomeMessageClass(id=33f82f42-5d94-4a35-afcf-be2d2bd507ec, sender=test, message=test, timestamp=1607357572787)"
 
 
